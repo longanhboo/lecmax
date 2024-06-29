@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Untitled Document</title>
+
+  <script src="./view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnUR-5FrPxcYHMTkm_5xR1qca1i8NGRps&sensor=false" type="text/javascript"></script>
+  <script type="text/javascript">
+    var marker;
+    function initialize() {
+     var currLatLng=window.opener.getCurrentLocation();
+     $('#txtPosition').attr('value',currLatLng);
+     if(currLatLng.length<3)currLatLng="10.7855167, 106.64357659999996";
+     var  point=currLatLng.split(',');
+     var myLatlng = new google.maps.LatLng(point[0], point[1]);
+     var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"), myOptions);
+    var contentString = '<div id="content">Đánh dấu bản đồ tại vị trí này</div>';
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+    marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      draggable:true,
+      title: ""
+    });
+    google.maps.event.addListener(marker, "dragend", function() {
+      setValue();
+      map.panTo(marker.getPosition());
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
+    google.maps.event.addListener(map, 'click', function(event) {
+      map.panTo(event.latLng);
+      marker.setPosition(event.latLng);
+      setValue();
+    });
+//    var searchControl = new google.search.SearchControl();
+//    var localSearch = new google.search.LocalSearch();
+//     var options = new google.search.SearcherOptions();
+//      options.setExpandMode(GSearchControl.EXPAND_MODE_OPEN);
+//      searchControl.addSearcher(localSearch, options);
+//      localSearch.setCenterPoint("San Francisco, CA");
+//      searchControl.draw(document.getElementById("searchcontrol"));
+//      searchControl.execute("viet nam");
+//      map.addControl(new google.maps.LocalSearch());
+}
+$(document).ready(function(){
+  initialize();
+});
+function setValue(){
+  var _point = marker.getPosition();
+  $('#txtPosition').attr('value',_point.lat()+', '+_point.lng());
+}
+function getLocation(){
+  var v=$('#txtPosition').attr('value');
+  window.opener.getLocation(v);
+  window.close();
+  return false;
+}
+</script>
+</head>
+<body>
+  <div id="container">
+    <input type="text" value="" id="txtPosition" size="100" style="display:none" />
+    <div id="googleMap" style="width:800px ;height:500px;"></div>
+    <div><input type=submit onclick="return getLocation();" value="Lấy tọa độ bản đồ"/><input type=submit onclick="return window.close();" value="Đóng"/></div>
+  </div>
+
+</body>
+</html>

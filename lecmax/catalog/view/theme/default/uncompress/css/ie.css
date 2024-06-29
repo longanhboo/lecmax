@@ -1,0 +1,4 @@
+.is-IE .stroke-line{ stroke-dasharray:0; stroke-dashoffset:0; }
+.is-IE .go-top.show{mix-blend-mode:inherit; }
+.is-IE .bg-cover::after{background-color: rgba(0, 33, 52,0.5);mix-blend-mode:inherit; opacity:0.5}
+.is-IE .bg-fixed::after{background:-webkit-linear-gradient(135deg, rgba(0, 72, 53,0.5) 0%, rgba(176, 92, 30,0.5) 100%);background:linear-gradient(135deg, rgba(0, 72, 53,0.5) 0%, rgba(176, 92, 30,0.5) 100%);mix-blend-mode:inherit; opacity:0.5}

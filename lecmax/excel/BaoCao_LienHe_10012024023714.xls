@@ -1,0 +1,292 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Hoang</o:LastAuthor>
+				  <o:LastSaved>2014-04-04T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>Export</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 colspan='3' style='text-align:center;color:#003;font-size:14px;'><img width='150' height='auto' src='https://lecmax.com.vn//catalog/view/theme/default/images/social-share.png' /></td><td class=xl24 width=64 colspan='4' style='text-align:center;color:#003;font-size:14px;'><br><strong>LECMAX</strong><br><strong>Địa chỉ:</strong> T28, Tòa nhà Ellipse, 110 Trần Phú, Hà Đông<br><strong>Điện Thoại:</strong> 84 24 7301 2678 - 3823 558 <br></td></tr><tr></tr><tr><td class=xl24 width=64 colspan='7' style='text-align:right;color:#003;font-size:12px;'>Date/Ngày: 10/01/2024</td></tr><tr><td class=xl24 width=64 colspan='7' style='text-align:right;color:#003;font-size:12px;'>Time/Thời gian: 02:37:14</td></tr><tr></tr><tr><td class=xl24 width=64 colspan='7' style='text-align:center;color:#030;font-size:18px;'><b style='text-transform:uppercase;'>BÁO CÁO DANH SÁCH KHÁCH HÀNG LIÊN HỆ</b></td></tr><tr></tr><tr><td class=xl24 width=120 style='text-align:center;color:#030;font-size:14px;border:#000 solid 1px;'><b>STT</b></td><td class=xl24 width=120 style='text-align:center;color:#030;font-size:14px;border:#000 solid 1px;'><b>Họ Tên</b></td><td class=xl24 width=120 style='text-align:center;color:#030;font-size:14px;border:#000 solid 1px;'><b>Email</b></td><td class=xl24 width=120 style='text-align:center;color:#030;font-size:14px;border:#000 solid 1px;'><b>Điện Thoại</b></td><td class=xl24 width=120 style='text-align:center;color:#030;font-size:14px;border:#000 solid 1px;'><b>Nội Dung</b></td><td class=xl24 width=120 style='text-align:center;color:#030;font-size:14px;border:#000 solid 1px;'><b>Ngày</b></td><td class=xl24 width=120 style='text-align:center;color:#030;font-size:14px;border:#000 solid 1px;'><b>Tình trạng</b></td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>1</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Lê Minh Phương</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>HI215@chailease.com.vn</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0989652959</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>                                                     THƯ NGỎ
+Kính gửi: QUÝ CÔNG TY 
+
+Công ty Cho thuê Tài Chính Quốc Tế Chailease (CILC) – Trụ sở Hà Nội xin gửi đến Anh/Chị và Quý Công ty lời chào trân trọng và lời chúc thành công.
+
+Trong hơn 10 năm hình thành và phát triển tại Việt Nam với phương châm: Đối tác hỗ trợ cho thành công của khách hàng và Động lực cho sự thành công về kinh tế. CILC đã và đang trở thành một tổ chức tín dụng xuất sắc tại Việt Nam. Chúng tôi không ngừng phát triển sản phẩm mới, đơn giản hóa thủ tục, hiện đại hóa công nghệ nhằm đáp ứng nhu cầu của quý Khách hàng. Công ty Cho thuê Tài Chính Quốc Tế Chailease (CILC) xin trân trọng giới thiệu sản phẩm “Tài trợ vốn mua sắm Tài sản cố định”. Cụ thể như sau:
+
+1.      Nhu cầu tài trợ: 
+	Mua trả góp máy móc thiết bị, dây chuyền sản xuất, xe chuyên dụng…(cũ và mới)
+	Tái cấp vốn Tài sản cố định (nhận thế chấp máy móc thiết bị tuổi đời đến 10 năm)   
+2.      Số tiền tài trợ: 60% - 85% Giá trị thị trường của tài sản (phương tiện vận tải có thể lên tới 95%)
+3.      Thời hạn cho vay: 24 - 60 tháng.
+4.      Lãi suất: 9-12%/năm 
+5.      Thủ tục giải ngân: phê duyệt sau 05-07 ngày làm việc
+6.      Phương thức trả nợ: Gốc trả đều hàng tháng, lãi giảm dần theo dư nợ thực tế
+
+
+RẤT VUI ĐƯỢC HỢP TÁC CÙNG ANH/CHỊ VÀ QUÝ CÔNG TY
+</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>30/06/2023 11:15:57</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>2</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Hoàng Thành Đồng</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>okiachuoi10b4@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0334346432</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Cần hỗ trợ báo giá cửa chống cháy Lecmax</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>28/06/2023 10:34:31</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>3</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Ignasi</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Ignasi@justor.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>34627378692</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Presentation Justor &quot;The Spring Hinge Company&quot;.
+Dear Sir or Madam:
+
+My name is Ignasi, and I am contacting you from Justor (Talleres Trepat SA, Barcelona, ES). We manufacture from 1946 of mechanisms for opening and closing for all types of doors (Specifically Retainer Brakes, Spring Hinges, and other automatic closing mechanisms).
+This message is to inform you of our interest in commercial collaboration with your company and the geographical area where you operate.
+I have attached our catalogs, but I would like to point out our differentiating points in the first place:
+- Efficiency and durability: We test our products in our testing laboratory and compare the results with our competitors, and we can affirm that we have a very low, almost inexistent, percentage of returns.
+- Our spring system is unique in the world and provides 250k to 1M opening and closing cycles depending on the product.
+- Service excellence: We try to take care of each customer individually, taking responsibility for their exclusive needs and doubts.
+- The best choice for your most demanding customers.
+- More than 70 countries trust in our products.
+Finally, thank you for your attention, and I look forward to your comments to start a profitable and lasting business relationship.
+
+Best regards from Barcelona,
+Ignasi C. Sust
+Export Manager
+www.justor.com</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>22/06/2023 19:34:07</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>4</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>mohammed sayeed</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>saytahi@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0397009835</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>We are from supreme constructions ,FL, USA,looking for potential manufacturers from vietnam. We will be in Hanoi from 21st June to discuss further. Please arrange a meeting with the Export Manger or International sales department. we are available on zalo +84397009835.
+Many Thanks</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>12/06/2023 09:56:09</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>5</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Mr.Chính</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>dangchinhktxd@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0975950656</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Chủ Đầu tư cần báo giá thi cửa gỗ có ô kính chống cháy hành lang căn hộ - chung cư tại Tp.HCM</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>26/05/2023 10:24:44</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>6</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Bùi Trang</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>buivuhuyentrang@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0766135205</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Chào bạn! Mình ở cty TVTK  INNO phần dự toán đang cần xin báo giá cửa CC của 1 số dự án. Bạn hỗ trợ mình nhé.</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>24/05/2023 10:19:43</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>7</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>charlene chee</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>ccehpl99@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>6596932091</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Dear SIr,
+
+ I am interested to order 15 doors model LM ABS F01 and LMABS -Lo2 model. Size is 950cm by 2m height.
+
+Please contact me via email with your quotation.
+
+Thank you
+
+Regards
+
+Charlene
+</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>05/04/2023 14:54:06</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>8</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>MIRAE SHINHWA in Korea.</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>miraeshi@daum.net</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>82220881402</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Hello.
+I’m young hee from MIRAE SHINHWA in Korea.
+I’m sending e-mail to request a quotation of your products as below.
+
+  Lecmax L03    q'ty   10 pcs
+Lecmax CH01   q'ty   10 pcs  </td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>20/03/2023 19:43:56</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>9</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Alex Duong</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>nhonduong83@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0932669923</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Chào bạn,
+Mình đang đấu thầu nhà máy Pin Vũng Áng, Hà Tĩnh
+Cần bên bạn cung cấp và lắp đặt gói thầu cửa thép chống cháy. Bạn vui lòng chuyển thông tin đến BP kinh doanh liên hệ lại mình nhé.
+Duong Van Nhon (Mr.)
+Procurement Manager
+Cell phone (+84) 932 669 923
+Whatsapp/Viber (+84) 932 669 923
+Email:  nhon.duong@hls.com.vn
+ </td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>09/03/2023 16:02:14</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>10</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Sophearom Prach</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>sophearom.prach@penghuothgroup.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>85598713777</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Greeting from Peng Huoth Group, one of property developers in Cambodia. Currently we are looking for purchase of Lecmax fire rated door. pls provide catalog for our reference in order to choose to fit with the actual at site.</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>03/03/2023 06:35:11</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>11</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Sophana Sakhan</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>sophana.sakhan@penghuothgroup.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>85598518466</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Request for quotation of fire rated door of 120min</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>02/03/2023 10:19:38</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>12</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Nguyễn Trọng Tín </td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>trongtin.n@vanthiel.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0968876715</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Hello, 
+We are looking for hotel doors for our hotel project in USA. 
+Please drop back email for further discussion.
+Thanks
+Tin</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>28/02/2023 17:10:09</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>13</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Nguyễn văn thủy</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Congnghecaoso1vn@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0981418889</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Cần đăng ký mở hệ thống đại lý độc quyền các tỉnh thành lecmax</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>26/02/2023 11:17:36</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>14</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Do Huy</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>huydo567@ymail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0946019926</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Muốn tìm hiểu thêm về chính sách Đại lý, chúng tôi là một đơn vị bán buôn và thi công lắp dựng cửa cuốn &amp; nhôm kính tại TPCT. </td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>07/02/2023 18:17:28</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>15</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>YOS NIM</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>yosnim.beon@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>85595899947</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Dear Sir/madam
+I am from BEON Construction and Material Supply Co., Ltd. from Cambodia. I am installer Steel Door. 
+I am very interested in your product. I have requirements by project. So Could you provide me the quotation of Steel and Steel Fire door? if you are ok, I will send the invitation for bidding? 
+
+best regard 
+YOS Nim</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>22/12/2022 11:08:18</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>16</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Chanida</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>chanida@sahapie.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>66818012657</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Sahapie Engineering Co.,Ltd  has been servicing. That's industries with premium technical products for over 30 years When integrating to Our modern marketing style with years of experience in Engineering equipments  and Our own facilities for technical services maintenance.
+We always provide the most satisfactory reliable supports and after sales services for customers.
+We have products that're accepted and used from leading companies around The World. We have variety products.
+- Fire production for manufacturing
+-  On load automatic tube cleaning system for chillers
+- Repair clamp without axial restrainr for all pipe materials
+- Pressure independent  balancing and control Valves
+- Pressure reducing Valves
+- Pressure management control Valves
+- Booster pumps
+- Induced draft counterflow cooling Towers
+- Horizontal split case pumps</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>07/12/2022 06:31:13</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>17</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>thu lam</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>thulam@xaydungphongvu.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0348894396</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Cần báo giá CỬA ĐI 2 CÁNH MỞ, CHỐNG CHÁY 70 PHÚT
+KÍCH THƯỚC LỌT LÒNG 
+(1600 x 2200mm)</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>28/11/2022 10:26:23</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>18</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Julia</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>gk@valussodesign.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>7549005169</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Chào buổi chiều!
+Công ty chúng tôi bán cửa nội thất Ở Florida, HOA kỳ.
+Chúng tôi đang tìm kiếm các nhà cung cấp mới.
+Chúng ta cần cửa nội thất có kích thước
+Cửa ra vào có thể được làm bằng vật liệu khác nhau -
+ fiberboard, ván,nhiều lớp, sơn lót cho bức tranh,
+khung bảng điều khiển, có và không có chèn,
+với chèn thủy tinh và như vậy.
+Chúng tôi rất chờ đợi thông tin phản hồi!</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>15/11/2022 03:50:16</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>19</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Huỳnh Bảo Kiên</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>huynhkien792005@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0903326027</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Bên mình đang có nhu cầu 7 bộ cửa chống cháy, thông số như sau:
+. &quot;CỬA THÉP CHỐNG CHÁY EI60 phút / LECMAX-EI60/A2B10
+- Tiêu chuẩn thử nghiệm TCVN 9383: 2012 (tương đương BS EN: 1634-1)
+- Chống cháy với cả hai hướng tiếp xúc lửa (thử nghiệm hai hướng mở)
+- Số cánh cửa: 02 cánh lệch
+- Vị trí lắp đặt: Cửa thoát hiểm                               Ký hiệu: D2a
+Quy cách cánh cửa:
+ - Chiều dày cánh cửa 50mm ± 1mm
+ - Vật liệu làm mặt cánh cửa: thép mạ kẽm dày 0.7 mm
+ - Vật liệu làm xương xung quanh cánh: thép 1,5 mm
+ - Vật liệu cách nhiệt trong cánh: 4 lớp thạch cao 15,9 mm (tỉ trọng 590 kg/m3)
+ - Xung quanh cạnh cánh cửa có rãnh âm và dán gioăng chương phồng ngăn lửa
+Hoàn thiện bề mặt cửa:
+ - Vật liệu hoàn thiện bề mặt: Sơn bột tĩnh điện đồng màu
+ - Kiểu màu khung cửa:                                                 Ký hiệu màu:
+ - Kiểu màu cánh cửa:                                                   Ký hiệu màu:
+Ghi chú: kích thước báo giá là kích thước bao ngoài của khung
+Bản lề lá Inox SUS304 KT 127x102x3mm mã HG02
+Bộ đóng cửa tự động nổi Lecmax LDC05 không dừng
+Thanh đẩy thoát hiểm thép sơn tĩnh điện Lecmax  PE01
+Khóa liên kết thanh đẩy thoát hiểm LH05
+Kính chống cháy 60 phút dày 25mm AGS (kích thước 320x560)
+Bậu cửa Inox ngăn khói khe liền cài gioăng (SUS 304 dày 1,2mm)
+Chốt âm lật trên dưới cho cánh phụ FB01 - BCA
+Lexmac hoặc tương đương
+Phụ kiện đồng bộ cửa Lexmac
+(cửa chống cháy, panel kính cường lực dày 8mm, giới hạn chịu lửa R=60 phút)&quot;
+Vị trí cung cấp &amp; lắp đặt: huyện Bến Lức, tỉnh Long An
+Vui lòng xem và cho báo giá giùm.
+Cám ơn
+</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>13/10/2022 14:26:36</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>20</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Nguyễn Phú Thịnh</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>thinhnp@eurowindow.biz</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>03980054757</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Xin giá cửa chống cháy E70</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>12/08/2022 08:51:55</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>21</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>NGUYỄN BÁCH CHIẾN</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>nguyen.bach.chien1608@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0392062721</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Xin thông tin giá sản phẩm cửa sắt trượt kt 1.8x2.2m
+Cám ơn,</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>09/08/2022 11:25:17</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>22</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Hậu</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>hauho@vietcorpvn.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0903939656</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>xin email hoi gia cửa chống cháy</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>02/08/2022 14:14:57</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>23</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Nguyen Hoang</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>nguyenvanhoang0293@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0372366593</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Tôi cần thay bản lề cửa chống cháy Lecmax</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>01/08/2022 09:44:17</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>24</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>nguyen van vuong</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>vuongxdbk10@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0938864923</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>cần mua cửa của Lecmax</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>16/07/2022 16:06:03</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>25</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Trần Tuấn Phương</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>phuong_tran@talenty.vn</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0792174611</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>&quot;Kính gửi bộ phận Tìm kiếm khách hàng
+
+Tên tôi là Phương, đến từ công ty Talenty Co., Ltd. Tôi muốn giới thiệu một dịch vụ quảng bá sản phẩm tới các đối tượng 'Đã xem các trang web của các nhà sản xuất trong cùng lĩnh vực'.
+
+Bằng cách này, chúng tôi hy vọng có thể giúp nhãn hàng của chúng mình tiếp cận các công ty mua hàng tiềm năng, bởi vì đây là đối tượng dễ dàng để trở thành đối tác của công ty hơn. Dịch vụ của chúng tôi là phân phối quảng cáo tới các đối tượng này trên môi trường mạng, tên của dịch vụ này là 'Targety'
+
+Chi tiết hơn về dịch vụ Targety, chúng tôi xin phép để tại đây: https://bit.ly/3Iwuuom (Vì công ty mình là công ty Nhật nên xin trường mình sử dụng chức năng dịch có sẵn trong browser giúp Talenty nhé!)
+
+Xin lưu ý rằng trong khi nhắm đến các đối tượng đã ghé thăm các trang web cùng lĩnh vực, chúng ta vẫn có thể nhắm chi tiết đến độ tuổi, học vấn, thu nhập,.... Từ đó, chúng ta sẽ có thể TỐI ƯU CHI PHÍ TIẾP CẬN KHÁCH HÀNG tới mức tối đa
+
+◇‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥◇
+Ví dụ cụ thể hơn về dịch vụ &quot;&quot;Targety' (Dựa trên kết quả thực tế)
+
+Targety được công ty sản xuất máy phát điện công nghiệp của Nhật tại Thái Lan sử dụng để thu hút học viên vào trang web công ty:
++ Số trang web cùng lĩnh vực được nhắm tới: 9
++ Số người ghé thăm trang web của trường: 120.000/ tháng
+
+Targety được dùng trong các nhạc việc lớn để tăng lượng học viên tại Nhật:
++ Sô trang web được chỉ định: 30
++ Số người ghé thăm trang web của nhạc viện: 3,500/ tháng
+
+◇‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥◇
+Tất cả những gì Targety cần là một danh sách các đường link website của các đối thủ, hình ảnh đẹp nhất bạn có để dùng cho việc quảng cáo và nội dung quảng cáo (Nếu bạn muốn chúng mình chuẩn bị giúp hai điều sau, Targety sẽ hỗ trợ mình với mức giá tối ưu.
+
+Chúng tôi sẽ bắt đầu quảng cáo sau đó (chỉ trong 1 tuần trong điều kiện tốt nhất) và Targety sẵn sàng hỗ trợ các gói quảng cáo có ngân sách nhỏ.
+
+Tôi sẽ giải thích chi tiết hơn trong một cuộc họp online nếu các bạn quan tâm. 
+
+Xin vui lòng đặt hẹn với tôi tại đây: https://booking.setmore.com/scheduleappointment/7052fc99-8bcd-4387-a910-866c2865b0fd/services/s4a559f43dabaf7990252970065386b3c79fe5e27?source=easyshare
+
+Hoặc bạn có thể gọi điện thoại hoặc zalo qua số: 079.217.4611 hay là gửi email qua phuong_tran@talenty.vn
+
+Cảm ơn các bạn đã quan tâm. Gửi niệm lành cho tất cả!
+
+Phương&quot;</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>13/07/2022 08:55:34</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>26</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Trần Tuấn Phương</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>phuong_tran@talenty.vn</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0792174611</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>&quot;Kính gửi bộ phận Tìm kiếm khách hàng
+
+Tên tôi là Phương, đến từ công ty Talenty Co., Ltd. Tôi muốn giới thiệu một dịch vụ quảng bá sản phẩm tới các đối tượng 'Đã xem các trang web của các nhà sản xuất trong cùng lĩnh vực'.
+
+Bằng cách này, chúng tôi hy vọng có thể giúp nhãn hàng của chúng mình tiếp cận các công ty mua hàng tiềm năng, bởi vì đây là đối tượng dễ dàng để trở thành đối tác của công ty hơn. Dịch vụ của chúng tôi là phân phối quảng cáo tới các đối tượng này trên môi trường mạng, tên của dịch vụ này là 'Targety'
+
+Chi tiết hơn về dịch vụ Targety, chúng tôi xin phép để tại đây: https://bit.ly/3Iwuuom (Vì công ty mình là công ty Nhật nên xin trường mình sử dụng chức năng dịch có sẵn trong browser giúp Talenty nhé!)
+
+Xin lưu ý rằng trong khi nhắm đến các đối tượng đã ghé thăm các trang web cùng lĩnh vực, chúng ta vẫn có thể nhắm chi tiết đến độ tuổi, học vấn, thu nhập,.... Từ đó, chúng ta sẽ có thể TỐI ƯU CHI PHÍ TIẾP CẬN KHÁCH HÀNG tới mức tối đa
+
+◇‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥◇
+Ví dụ cụ thể hơn về dịch vụ &quot;&quot;Targety' (Dựa trên kết quả thực tế)
+
+Targety được công ty sản xuất máy phát điện công nghiệp của Nhật tại Thái Lan sử dụng để thu hút học viên vào trang web công ty:
++ Số trang web cùng lĩnh vực được nhắm tới: 9
++ Số người ghé thăm trang web của trường: 120.000/ tháng
+
+Targety được dùng trong các nhạc việc lớn để tăng lượng học viên tại Nhật:
++ Sô trang web được chỉ định: 30
++ Số người ghé thăm trang web của nhạc viện: 3,500/ tháng
+
+◇‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥◇
+Tất cả những gì Targety cần là một danh sách các đường link website của các đối thủ, hình ảnh đẹp nhất bạn có để dùng cho việc quảng cáo và nội dung quảng cáo (Nếu bạn muốn chúng mình chuẩn bị giúp hai điều sau, Targety sẽ hỗ trợ mình với mức giá tối ưu.
+
+Chúng tôi sẽ bắt đầu quảng cáo sau đó (chỉ trong 1 tuần trong điều kiện tốt nhất) và Targety sẵn sàng hỗ trợ các gói quảng cáo có ngân sách nhỏ.
+
+Tôi sẽ giải thích chi tiết hơn trong một cuộc họp online nếu các bạn quan tâm. 
+
+Xin vui lòng đặt hẹn với tôi tại đây: https://booking.setmore.com/scheduleappointment/7052fc99-8bcd-4387-a910-866c2865b0fd/services/s4a559f43dabaf7990252970065386b3c79fe5e27?source=easyshare
+
+Hoặc bạn có thể gọi điện thoại hoặc zalo qua số: 079.217.4611 hay là gửi email qua phuong_tran@talenty.vn
+
+Cảm ơn các bạn đã quan tâm. Gửi niệm lành cho tất cả!
+
+Phương&quot;</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>12/07/2022 12:19:33</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>27</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Nguyễn Trung Hiếu</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>hieunguyen@swavietnam.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0398449069</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Cửa chống cháy</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>05/07/2022 08:15:33</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>28</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Vân</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>van.nguyen@skcorp.vn</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0344581880</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>Báo giá cửa chống cháy</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>27/06/2022 11:24:22</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr><tr ><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>29</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>BTQ</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>btq@gmail.com</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>0987654321</td><td class=xl24 width=120 style='text-align:left;color:#003;font-size:14px;border:#000 solid 1px;'>BTQ gui email!</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>07/10/2019 13:28:08</td><td class=xl24 width=120 style='text-align:center;color:#003;font-size:14px;border:#000 solid 1px;'>X</td></tr></table></body></html>
