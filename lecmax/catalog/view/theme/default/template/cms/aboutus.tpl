@@ -2,7 +2,6 @@
 <!--CONTAINER-->
 <div class="container"  id="about-page">
 <section class="banner-inner">
-<div class="title-page"><h1><?php echo $infoActive['name'];?></h1></div>
 <div class="slide-mask" data-time="<?php echo $infoActive['config_loop_picture'];?>000">
 <?php if(count($infoActive['images'])>0){?>
 <?php foreach($infoActive['images'] as $item){?>
@@ -58,7 +57,7 @@
 <?php if($item['id']==50){?>
 <?php if(!empty($item['description'])){?>
 <section class="padding-main set-post" data-post="about-info" data-href="<?php echo str_replace('HTTP_SERVER',HTTP_SERVER,$item['href']);?>" data-title="<?php echo $item['meta_title'];?>" data-description="<?php echo $item['meta_description'];?>" data-keyword="<?php echo $item['meta_keyword'];?>">
-<div class="title-main title-red ani-item"><h2><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h2></div>
+<div class="title-main title-red ani-item"><h1><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h1></div>
 <div class="wrap-content content-1 ani-item">
 <?php echo str_replace('HTTP_CATALOG',HTTP_SERVER,$item['description']);?>
 </div>
@@ -69,7 +68,7 @@
 <section class="about-factory set-post" data-post="about-factory" data-href="<?php echo str_replace('HTTP_SERVER',HTTP_SERVER,$item['href']);?>" data-title="<?php echo $item['meta_title'];?>" data-description="<?php echo $item['meta_description'];?>" data-keyword="<?php echo $item['meta_keyword'];?>">
 <div class="bg-cover" style="background-image:url(<?php echo !empty($item['image'])?HTTP_IMAGE . $item['image']:PATH_IMAGE_BG;?>)"></div>
 <div class="box-fac ani-item">
-<div class="title-main title-white"><h2><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h2></div>
+<div class="title-main title-white"><h1><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h1></div>
 <?php echo str_replace('HTTP_CATALOG',HTTP_SERVER,$item['description']);?>
 </div>
 </section>
@@ -78,7 +77,7 @@
 <?php if(count($item['child'])>0){?>
 <section class="padding-main about-history set-post" data-post="about-history" data-href="<?php echo str_replace('HTTP_SERVER',HTTP_SERVER,$item['href']);?>" data-title="<?php echo $item['meta_title'];?>" data-description="<?php echo $item['meta_description'];?>" data-keyword="<?php echo $item['meta_keyword'];?>">
 <div class="wrap-content">
-<div class="title-main title-white ani-item"><h2><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h2></div>
+<div class="title-main title-white ani-item"><h1><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h1></div>
 <div class="slider-history" data-time="6000">
 <div class="item-wrapper">
 <?php foreach($item['child'] as $child){?>
@@ -125,7 +124,7 @@
 <?php }elseif($item['id']==56){?>
 <?php if(!empty($item['description'])){?>
 <section class="padding-main set-post" data-post="about-quality" data-href="<?php echo str_replace('HTTP_SERVER',HTTP_SERVER,$item['href']);?>" data-title="<?php echo $item['meta_title'];?>" data-description="<?php echo $item['meta_description'];?>" data-keyword="<?php echo $item['meta_keyword'];?>">
-<div class="title-main title-red ani-item"><h2><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h2></div>
+<div class="title-main title-red ani-item"><h1><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h1></div>
 <div class="wrap-content content-1 ani-item">
 <?php echo str_replace('HTTP_CATALOG',HTTP_SERVER,$item['description']);?>
 </div>
@@ -134,7 +133,7 @@
 <?php }elseif($item['id']==55){?>
 <?php if(count($item['child'])>0){?>
 <section class="padding-main about-certification set-post" data-post="about-certification" data-href="<?php echo str_replace('HTTP_SERVER',HTTP_SERVER,$item['href']);?>" data-title="<?php echo $item['meta_title'];?>" data-description="<?php echo $item['meta_description'];?>" data-keyword="<?php echo $item['meta_keyword'];?>">
-<div class="title-main title-white ani-item"><h2><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h2></div>
+<div class="title-main title-white ani-item"><h1><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h1></div>
 <div class="wrap-content">
 <div class="slider-al slider-white ani-item">
 <?php foreach($item['child'] as $child){?>
@@ -176,7 +175,7 @@
 <?php }elseif($item['id']==34){?>
 <?php if(count($item['child'])>0){?>
 <section class="padding-main about-video set-post" data-post="about-video" data-href="<?php echo str_replace('HTTP_SERVER',HTTP_SERVER,$item['href']);?>" data-title="<?php echo $item['meta_title'];?>" data-description="<?php echo $item['meta_description'];?>" data-keyword="<?php echo $item['meta_keyword'];?>">
-<div class="title-main ani-item"><h2><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h2></div>
+<div class="title-main ani-item"><h1><?php echo !empty($item['name1'])?$item['name1']:$item['name'];?></h1></div>
 <div class="wrap-content">
 <div class="slider-pic ani-item">
 <?php foreach($item['child'] as $i_sh){?>

@@ -2,7 +2,6 @@
 <!--CONTAINER-->
 <div class="container"  id="services-page">
 <section class="banner-inner">
-<div class="title-page"><h1><?php echo $infoActive['name'];?></h1></div>
 <div class="slide-mask" data-time="<?php echo $infoActive['config_loop_picture'];?>000">
 <?php if(count($service['images'])>0){?>
 <?php foreach($service['images'] as $item){?>
@@ -28,7 +27,7 @@
 </section>
 <?php if($service['typeservice']==1){?>
 <section class="padding-main">
-<div class="title-main"><h2><?php echo isset($service['child'][0]['name'])?$service['child'][0]['name']:$service['name'];?></h2></div>
+<div class="title-main"><h1><?php echo isset($service['child'][0]['name'])?$service['child'][0]['name']:$service['name'];?></h1></div>
 <div class="wrap-content">
 <?php foreach($service['child'] as $child){?>
 <?php if($child['typedesign']==1){?>
@@ -49,7 +48,7 @@
 </div>
 <?php }else{?>
 <div class="box-design ani-item">
-<div class="title-main"><h2><?php echo $child['name'];?></h2></div>
+<div class="title-main"><h1><?php echo $child['name'];?></h1></div>
 <div class="content-1">
 <?php echo str_replace('HTTP_CATALOG',HTTP_SERVER,$child['description']);?>
 </div>
@@ -60,7 +59,7 @@
 </section>
 <?php }elseif($service['typeservice']==2){?>
 <section class="padding-main">
-<div class="title-main"><h2><?php echo $service['name'];?></h2></div>
+<div class="title-main"><h1><?php echo $service['name'];?></h1></div>
 <div class="list-news">
 <?php if(count($service['child'])>0){?>
 <?php foreach($service['child'] as $child){?>
@@ -79,7 +78,7 @@
 </section>
 <?php }else{?>
 <section class="padding-main">
-<div class="title-main"><h2><?php echo $service['name'];?></h2></div>
+<div class="title-main"><h1><?php echo $service['name'];?></h1></div>
 <div class="load-details">
 <div class="load-text ani-item">
 <?php echo str_replace('HTTP_CATALOG',HTTP_SERVER,$service['description']);?>
