@@ -2,7 +2,6 @@
 <!--CONTAINER-->
 <div class="container"  id="projects-page">
 <section class="banner-inner">
-<div class="title-page"><h1><?php echo $infoActive['name'];?></h1></div>
 <div class="slide-mask" data-time="<?php echo $infoActive['config_loop_picture'];?>000">
 <?php if(count($cate_project['images'])>0){?>
 <?php foreach($cate_project['images'] as $item){?>
@@ -29,7 +28,7 @@
 </div>
 </section>
 <section class="padding-main">
-<div class="title-main title-red"><h2><?php echo !empty($cate_project['name'])?$cate_project['name1']:$cate_project['name'];?></h2></div>
+<div class="title-main title-red"><h1><?php echo !empty($cate_project['name'])?$cate_project['name1']:$cate_project['name'];?></h1></div>
 <div class="list-project">
 <?php foreach($cate_project['child'] as $item){?>
 <div class="item-project ani-item">

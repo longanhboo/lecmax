@@ -216,7 +216,7 @@ button[data-state="cancel-fullscreen"] {background-image: url(../images/video/ca
 .title-page::before {content: ' ';background:url(../images/top-frame.svg) no-repeat center center/ contain;width: 175px;height: 39px;top: -50px;left: 50%; position: absolute;margin: 0 0 0 -87px;}
 .title-page::after {content: ' ';background:url(../images/bottom-frame.svg) no-repeat center center/ contain;width: 174px;height: 55px;bottom: -60px;left: 50%; position: absolute;margin: 0 0 0 -87px;}
 .title-main {position: relative;display: block;width:100%;height:auto;text-align:center;margin:0 0 60px 0}
-.title-main h2 {text-transform: uppercase;font-size: 35px;font-weight:700;}
+.title-main h1 {text-transform: uppercase;font-size: 35px;font-weight:700;}
 .title-main.title-white {color: #fff;}
 .title-main.title-red {color: #ed1c24;}
 
@@ -892,7 +892,7 @@ body, html {scrollbar-width: auto;}
 .title-page h1 {font-size: 30px}
 .wrap-title {max-width: 700px}
 .title-main {margin-bottom: 30px}
-.title-main h2 {font-size: 30px}
+.title-main h1 {font-size: 30px}
 
 /* VIDEO FULL */
 .video-youtube-full {height:auto;}
@@ -1096,7 +1096,7 @@ body, html {scrollbar-width: auto;}
 .title-page::after{width:80px;height:24px;margin:0 0 0 -40px;bottom:-30px}
 .title-page h1{font-size:25px}
 .title-main{margin:0 0 20px 0}
-.title-main h2{font-size:20px}
+.title-main h1{font-size:20px}
 
 /* HOME PAGE */
 .big-news {float: none;width: 100%;}

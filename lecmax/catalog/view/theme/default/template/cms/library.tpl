@@ -2,7 +2,6 @@
 <!--CONTAINER-->
 <div class="container"  id="library-page">
 <section class="banner-inner">
-<div class="title-page"><h1><?php echo $infoActive['name'];?></h1></div>
 <div class="slide-mask" data-time="<?php echo $infoActive1['config_loop_picture'];?>000">
 <?php if(count($infoActive1['images'])>0){?>
 <?php foreach($infoActive1['images'] as $item){?>
@@ -32,6 +31,7 @@
 </section>
 <?php if($menu_active==ID_VIDEO){?>
 <section class="padding-main">
+<div class="title-main"><h1><?php echo $infoActive1['name'];?></h1></div>
 <div class="list-video">
 <?php if(count($videos)>0){?>
 <?php foreach($videos as $item){?>
@@ -60,6 +60,7 @@ c4.712-1.268,8.428-4.984,9.696-9.697c2.267-8.609,2.267-26.463,2.267-26.463S110.1
 </section>
 <?php }elseif($menu_active==ID_DOCUMENT){?>
 <section class="padding-main">
+<div class="title-main"><h1><?php echo $infoActive1['name'];?></h1></div>
 <div class="list-document">
 <?php if(count($documents)>0){?>
 <?php foreach($documents as $item){?>
