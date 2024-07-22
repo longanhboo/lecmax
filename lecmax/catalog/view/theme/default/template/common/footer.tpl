@@ -1,4 +1,70 @@
 <footer class="footer">
+    <div class="top-footer">
+        <div class="col-footer ani-item">
+            <h3>Công ty cổ phần Lecmax Việt Nam</h3>
+            <ul class="company-info">
+				<?php foreach($contacts as $item){?>
+					<li>
+						<?php if(!empty($item['address'])){?><p class="address"><?php echo $item['address'];?></p><?php }?>
+						<?php if(!empty($item['phonelist'])){?><p class="phone"><?php echo $item['phonelist'];?></p><?php }?>
+						<?php if(!empty($item['faxlist'])){?><p class="fax"><?php echo $item['faxlist'];?></p><?php }?>
+					</li>
+				<?php }?>
+            </ul>
+        </div>
+        <div class="col-footer ani-item">
+            <h3>Chính sách</h3>
+            <ul class="company-info">
+                <li><p class="policy">Chính sách đại lý</p></li>
+                <li><p class="policy">Chính sách bảo mật thông tin</p></li>
+                <li><p class="policy">Chính sách bảo hành</p></li>
+                <li><p class="policy">Phương thức thanh toán</p></li>
+            </ul>
+        </div>
+        <div class="col-footer ani-item">
+            <h3>Kết nối với chúng tôi</h3>
+            <ul class="company-info">
+                <?php if(!empty($social['fb']) ){?>
+					<li>
+						<a class="facebook" href="<?php echo $social['fb'];?>" rel="nofollow" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+							<path fill="currentColor" d="M36.5,24.5h-5v-3.3c0-1.2,0.8-1.5,1.4-1.5s3.5,0,3.5,0v-5.4l-4.9,0c-5.4,0-6.7,4.1-6.7,6.7v3.6h-3.1v5.6h3.1
+							c0,7.2,0,15.9,0,15.9h6.6c0,0,0-8.8,0-15.9h4.4L36.5,24.5z"/>
+							<ellipse stroke="currentColor" class="foreground" cx="30" cy="30" rx="26" ry="26"/>
+							</svg>
+						</a>
+					</li>
+				<?php }?>
+                <li><a href="#"><img src="path-to-instagram-icon.svg" alt="Instagram"></a></li>
+				<?php if(!empty($social['youtube']) ){?>
+					<li>
+						<a class="youtube" href="<?php echo $social['youtube'];?>" rel="nofollow" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+							<path fill="currentColor" d="M43.5,22.8c0-0.1,0-0.2-0.1-0.3c0,0,0-0.1,0-0.1c-0.4-1.1-1.4-1.9-2.7-1.9h0.2c0,0-5-0.8-11.7-0.8
+							c-6.7,0-11.7,0.8-11.7,0.8h0.2c-1.3,0-2.3,0.8-2.7,1.9c0,0,0,0.1-0.1,0.1c0,0.1-0.1,0.2-0.1,0.3c-0.2,1.3-0.5,3.9-0.5,7
+							c0,3.1,0.3,5.7,0.5,7c0,0.1,0,0.2,0.1,0.3c0,0,0,0.1,0.1,0.2c0.4,1.1,1.4,1.9,2.7,1.9h-0.2c0,0,5,0.8,11.7,0.8
+							c6.7,0,11.7-0.8,11.7-0.8h-0.2c1.3,0,2.3-0.8,2.7-1.9c0,0,0-0.1,0-0.2c0-0.1,0-0.2,0.1-0.3c0.2-1.3,0.5-3.9,0.5-7
+							C44,26.7,43.7,24.1,43.5,22.8z M33.5,30.5l-6,4.3c-0.1,0.1-0.3,0.1-0.4,0.1c-0.1,0-0.2,0-0.3-0.1c-0.2-0.1-0.4-0.4-0.4-0.6v-8.7
+							c0-0.3,0.1-0.5,0.4-0.6c0.2-0.1,0.5-0.1,0.8,0.1l6,4.4c0.2,0.1,0.3,0.4,0.3,0.6C33.8,30.1,33.7,30.3,33.5,30.5z"/>
+							<ellipse stroke="currentColor" class="foreground" cx="30" cy="30" rx="26" ry="26"/>
+							</svg>
+						</a>
+					</li>
+				<?php }?>
+                <li><a href="#"><img src="path-to-email-icon.svg" alt="Email"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <div class="copyright ani-item">
+            2019 <strong>LECMAX. VIET NAM.</strong> ALL RIGHTS RESERVED.
+        </div>
+    </div>
+</footer>
+
+
+
+<footer class="footer">
 <?php if($menu_active!=ID_CONTACT){?>
 <div class="top-footer">
 <?php foreach($contacts as $item){?>
