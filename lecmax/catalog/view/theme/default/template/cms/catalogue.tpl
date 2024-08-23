@@ -2,7 +2,6 @@
 <!--CONTAINER-->
 <div class="container"  id="catalogue-page">
 <section class="banner-inner">
-<div class="title-page"><h1><?php echo $infoActive['name'];?></h1></div>
 <div class="slide-mask" data-time="<?php echo $infoActive['config_loop_picture'];?>000">
 <?php if(count($infoActive['images'])>0){?>
 <?php foreach($infoActive['images'] as $item){?>
@@ -18,6 +17,7 @@
 </div>
 </section>
 <section class="padding-main">
+<div class="title-main"><h1>Catalogue</h1></div>
 <div class="list-catalogue">
 <?php $stt=0;foreach($filepdfs as $item){?>
 <?php 

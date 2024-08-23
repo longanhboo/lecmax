@@ -2,7 +2,6 @@
 <!--CONTAINER-->
 <div class="container"  id="contact-page">
 <section class="banner-inner">
-<div class="title-page"><h1><?php echo $infoActive['name'];?></h1></div>
 <div class="slide-mask" data-time="<?php echo $infoActive['config_loop_picture'];?>000">
 <?php if(count($infoActive['images'])>0){?>
 <?php foreach($infoActive['images'] as $item){?>
@@ -18,7 +17,7 @@
 </div>
 </section>
 <section class="padding-main">
-<div class="title-main title-red"><h2><?php echo $text_thong_tn_lien_he;?></h2></div>
+<div class="title-main"><h1><?php echo $text_thong_tn_lien_he;?></h1></div>
 <div class="info-contact">
 <?php $json_map = '[';$googlemap='';?>
 <?php foreach($contacts as $keynw=>$item){?>
