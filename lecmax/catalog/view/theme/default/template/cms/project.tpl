@@ -29,7 +29,7 @@
 </div>
 </section>
 <section class="padding-main">
-<div class="title-main title-red"><h2><?php echo !empty($cate_project['name'])?$cate_project['name1']:$cate_project['name'];?></h2></div>
+<div class="title-main"><h1><?php echo !empty($cate_project['name'])?$cate_project['name1']:$cate_project['name'];?></h1></div>
 <div class="list-project">
 <?php foreach($cate_project['child'] as $item){?>
 <div class="item-project ani-item">

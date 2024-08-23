@@ -368,9 +368,9 @@ button[data-state="cancel-fullscreen"] {background-image: url(../images/video/ca
 .item-project .pic-img {padding:44% 0;}
 
 /* PROJECT DETAIL */
-.title-pro {text-align: center;display: block;margin: 0 0 30px 0;padding:0 15px;color: #ed1c24}
+.title-pro {text-align: center;display: block;margin: 0 0 30px 0;padding:0 15px}
 .title-pro p {display: block;text-transform: uppercase;font-size: 15px;}
-.title-pro h2{font-size: 35px;text-transform: uppercase;font-weight: 700}
+.title-pro h1{font-size: 35px;text-transform: uppercase;font-weight: 700}
 .pic-pro-detail {position: relative;display: block;width: 100%;height: auto;margin: 0 0 20px 0}
 .pic-pro-detail img {width: 100%;display: block;}
 .pic-pro-detail .zoom {display: none;}
@@ -405,7 +405,7 @@ button[data-state="cancel-fullscreen"] {background-image: url(../images/video/ca
 /* PRODUCTS PAGE */
 .title-pro1 {position: absolute;bottom: 0;left: 0;text-align: center;background-color: rgba(0,0,0,0.5);width: 100%;padding: 20px;color: #fff}
 .title-pro1 p {display: block;text-transform: uppercase;font-size: 15px;}
-.title-pro1 h2{font-size: 35px;text-transform: uppercase;font-weight: 700}
+.title-pro1 h1 {font-size: 35px;text-transform: uppercase;font-weight: 700}
 .list-product {position: relative;display: block;width: 90%;height: auto;max-width: 1200px;margin: auto;text-align: center;}
 .item-product  {display: inline-block;vertical-align: top; width: calc(33.33% - 10px);position: relative;height: auto;margin: 3px 1px;background-color: #fff;padding: 20px;text-align: center;-webkit-box-shadow:0 0 5px 1px rgba(0,0,0,0.1);box-shadow: 0 0 5px 1px rgba(0,0,0,0.1)}
 .pic-product {position:relative;display:block;height:300px;width:100%;}
@@ -1042,7 +1042,7 @@ body, html {scrollbar-width: auto;}
 .item-project {width: calc(50% - 13px)}
 
 /* PROJECT DETAIL PAGE */
-.title-pro h2, .title-sm h3 {font-size: 25px;}
+.title-pro h1, .title-sm h3 {font-size: 25px;}
 .pic-pro-detail .zoom {display: block;}
 
 /* SERVICES PAGE */
@@ -1051,7 +1051,7 @@ body, html {scrollbar-width: auto;}
 
 /* PRODUCTS PAGE */
 .item-product {width: calc(50% - 13px)}
-.title-pro1 h2 {font-size: 25px;}
+.title-pro1 h1 {font-size: 25px;}
 }
 
 @media screen and (max-width:760px){
@@ -1151,11 +1151,11 @@ body, html {scrollbar-width: auto;}
 .load-text p {font-size: 14px}
 
 /* PROJECT DETAIL PAGE */
-.title-pro h2, .title-sm h3 {font-size: 20px;}
+.title-pro h1, .title-sm h3 {font-size: 20px;}
 
 /* PRODUCTS PAGE */
 .item-product {width: 100%;margin: 10px 0}
-.title-pro1 h2 {font-size: 20px;}
+.title-pro1 h1 {font-size: 20px;}
 .content-des-detail {width: 100%}
 .list-product-2 .pic-product{height: auto;}
 

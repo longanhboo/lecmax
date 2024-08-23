@@ -2,7 +2,6 @@
 <!--CONTAINER-->
 <div class="container"  id="news-details-page">
 <section class="banner-inner">
-<div class="title-page"><h1><?php echo $infoActive['name'];?></h1></div>
 <div class="slide-mask" data-time="<?php echo $infoActive['config_loop_picture'];?>000">
 <?php if(count($infoActive1['images'])>0){?>
 <?php foreach($infoActive1['images'] as $item){?>

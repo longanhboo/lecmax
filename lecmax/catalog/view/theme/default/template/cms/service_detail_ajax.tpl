@@ -1,6 +1,6 @@
 <div class="load-details service-loads">
 <div class="load-title">
-<h3><?php echo $service['name'];?></h3>
+<h1><?php echo $service['name'];?></h1>
 </div>
 <div class="load-text ani-item">
 <?php echo str_replace('HTTP_CATALOG',HTTP_SERVER,$service['description']);?>

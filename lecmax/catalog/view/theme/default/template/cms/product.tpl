@@ -18,7 +18,7 @@
 </div>
 <div class="title-pro1 ani-item">
 <p><?php echo $infoActive1['name'];?></p>
-<h2><?php echo $infoActive2['name'];?></h2>
+<h1><?php echo $infoActive2['name'];?></h1>
 </div>
 </section>
 <section class="padding-main">
